@@ -55,5 +55,6 @@ def main():
     sleep(1)
     while True:
         print(str(roomArray[location]))
-        userInput = input("Please type: n, s, e, w, or quit: ")
+        userInput = input("Please type: n, s, e, w, t or quit: ")
         location = move(userInput, location)
+        
